@@ -1,6 +1,8 @@
-export class Car {
-  public go(msg: string): void {
+class Car {
+  go(msg: string): string {
     console.log(msg);
+    return msg;
   }
 }
 
+export { Car };
