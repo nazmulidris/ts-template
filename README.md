@@ -1,3 +1,7 @@
+# Overview
+
+<img src="https://raw.githubusercontent.com/nazmulidris/ts-template/master/arch-diagram.jpg" width="50%"></img>
+
 # References
 
 ## TypeScript
