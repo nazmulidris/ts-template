@@ -1,4 +1,21 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Overview](#overview)
+- [References](#references)
+  - [TypeScript](#typescript)
+  - [Webpack 4](#webpack-4)
+  - [Karma, Jasmine](#karma-jasmine)
+  - [All together](#all-together)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Overview
+
+The tutorial explaining how to use this repo and it's directory structure and
+configuration files are in this
+[developerlife.com tutorial](http://developerlife.com/2019/07/06/starter-project-typescript-karma-jasmine-webpack/).
 
 <img src="https://raw.githubusercontent.com/nazmulidris/ts-template/master/arch-diagram.jpg" width="50%"></img>
 

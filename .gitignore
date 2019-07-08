@@ -1,3 +1,7 @@
 node_modules
 dist/bundle.js
 dist/bundle.js.map
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/shelf
