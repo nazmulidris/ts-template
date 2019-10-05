@@ -29,7 +29,7 @@ module.exports = function(config) {
         frameworks: ['jasmine'],
 
         // list of files / patterns to load in the browser
-        files: ['test/*.ts'],
+        files: ['test/*.ts', 'test/*.js'],
 
         // list of files / patterns to exclude
         exclude: [],
@@ -37,12 +37,13 @@ module.exports = function(config) {
         // preprocess matching files before serving them to the browser
         // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
         preprocessors: {
-            'test/**/*.ts': ['webpack']
+            'test/**/*.ts': ['webpack'],
+            'test/**/*.js': ['webpack'],
         },
         webpack: {
             module: webpackConfig.module,
             resolve: webpackConfig.resolve,
-            mode: webpackConfig.mode
+            mode: webpackConfig.mode,
         },
 
         // test results reporter to use
@@ -73,6 +74,6 @@ module.exports = function(config) {
 
         // Concurrency level
         // how many browser should be started simultaneous
-        concurrency: Infinity
+        concurrency: Infinity,
     });
 };
