@@ -17,7 +17,7 @@ The tutorial explaining how to use this repo and it's directory structure and
 configuration files are in this
 [developerlife.com tutorial](http://developerlife.com/2019/07/06/starter-project-typescript-karma-jasmine-webpack/).
 
-<img src="https://developerlife.com/assets/ts-template-arch-diagram.svg" width="50%"></img>
+<img src="https://developerlife.com/assets/ts-template-arch-diagram.svg"></img>
 
 # References
 
